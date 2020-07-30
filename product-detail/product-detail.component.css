@@ -1,0 +1,16 @@
+.btn-info  {
+    width: max-content;
+    font-variant-numeric: tabular-nums;
+    color: #4f4c4c;
+    background-color: #a9ccdf;
+    border-color: #89aec2;
+    }
+ .btn-info:hover{
+     background-color: #89aec2;
+ }
+ .table th{
+    font-weight: 500;
+}
+.btn{
+    margin: 4px;
+}

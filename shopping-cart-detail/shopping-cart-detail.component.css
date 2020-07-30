@@ -1,0 +1,30 @@
+.container{
+    padding: 10px 0px;
+    width: 50%;
+    height: fit-content;
+    margin-left: inherit;
+}
+.header-container{
+        padding-top: 10px;
+        float: right;
+}
+.icon-wrapper{
+    position:relative;
+    float:left;
+}
+
+i {   
+    text-align:center;
+    vertical-align:middle;
+}
+.badgeDemo{
+    background: #c9d9e1;;
+    width: 30px !important;
+    height: 30px !important;
+    margin: 0;
+    border-radius: 50%;
+    position:absolute;
+    top:-13px;
+    right:-8px;
+    padding:2px;
+}

@@ -1,0 +1,28 @@
+<div class="child-container">
+<table class="table">
+    <thead>
+        <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Description</th>
+        <th></th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        <td>{{product.productName}}</td>
+        <td>{{product.price | currency}}</td>
+        <td><img
+            [src]="product.img"
+            class="img-fluid"
+            width="32px"
+            height="32px"
+          /></td>
+        <td>
+          <button type="button" (click) ="add()" class="btn btn-sm btn-info">+</button>
+          <button type="button" (click) ="remove()" class="btn btn-sm btn-info">-</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

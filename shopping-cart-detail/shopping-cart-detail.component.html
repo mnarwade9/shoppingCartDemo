@@ -1,0 +1,17 @@
+<div class="container">
+<h4 style="font-weight: 400">Welcome To Medilife!</h4>
+<div class="header-container">
+    <div class="header">
+       <div class="icon-wrapper">
+            <label style="padding:7px">Shopping Cart:</label> 
+            <i class="fa badge" style="font-size:24px">&#xf07a;</i>
+            <span class="badgeDemo">{{cartcount}}</span>
+        </div>
+    </div>   
+</div>
+<div class="body">
+    <div class="panel panel-default">
+        <app-product-detail (addedToCart)="onAdd($event)"></app-product-detail>
+    </div>
+</div>
+</div>
